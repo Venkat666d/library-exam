@@ -16,7 +16,7 @@ let users = [
 
 app.get("/", (req, res) => {
 
- res.send("Library API is working - use /users to get users history and /books for books route ");
+ res.send("Library API is working - use /users to get users history and /books for books route and use /history for history");
 });
 
 app.get("/books", (req, res) => {
